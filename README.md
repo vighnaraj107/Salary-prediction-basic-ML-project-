@@ -46,11 +46,13 @@ salary-predictor/
 
 ---
 
-🧠 What I Learned
-How to build a machine learning model using sklearn
-Train-test split
-Model evaluation using R² score
-Data visualization using matplotlib
+**##🧠 **What I Learned**
+**1.**How to build a machine learning model using sklearn
+**2.**Train-test split
+**3.**Model evaluation using R² score
+**4.**Data visualization using matplotlib
+
+---
 
 ## ⚙️ **How It Works**
 
