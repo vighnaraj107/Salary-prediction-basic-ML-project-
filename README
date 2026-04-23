@@ -1,134 +1,144 @@
-# 💼 Salary Predictor App
+# 💼 **Salary Predictor App**
 
-A simple yet powerful Machine Learning web application that predicts salary based on years of experience. Built using **Linear Regression** and deployed with **Streamlit**, this project demonstrates an end-to-end ML workflow — from data preprocessing to model deployment.
-
----
-
-## 🚀 Features
-
-* 📊 Predict salary based on user input (Years of Experience)
-* 🤖 Machine Learning model using Linear Regression
-* 🔄 Automatic model retraining when dataset updates
-* 📈 Interactive graph visualization (Salary vs Experience)
-* 🎯 Highlights predicted value on the graph
-* ⚡ Fast and lightweight Streamlit interface
+### 🚀 Machine Learning Web Application using Linear Regression & Streamlit
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 **Overview**
 
-* Python
-* Pandas
-* Scikit-learn
-* Matplotlib
-* Streamlit
+This project is an **end-to-end Machine Learning application** that predicts salary based on years of experience.
+
+It demonstrates the complete ML workflow:
+
+> 📊 Data → 🤖 Model → 🌐 Web App → 📈 Visualization
 
 ---
 
-## 📂 Project Structure
+## ✨ **Key Features**
 
-```
+### 🔮 Prediction
+
+* Predict salary based on user input
+* Real-time results using trained ML model
+
+### 📊 Visualization
+
+* Scatter plot of actual data
+* Regression line for predictions
+* Highlights user’s predicted point
+
+### 🔄 Smart Model Handling
+
+* Automatic retraining when dataset is updated
+* Efficient model loading using `pickle`
+
+### ⚡ Interactive UI
+
+* Built with Streamlit
+* Simple and user-friendly interface
+
+---
+
+## 🛠️ **Tech Stack**
+
+* 🐍 Python
+* 📊 Pandas
+* 🤖 Scikit-learn
+* 📈 Matplotlib
+* 🌐 Streamlit
+
+---
+
+## 📂 **Project Structure**
+
+```id="lqxr6c"
 salary-predictor/
 │
-├── app.py                # Streamlit frontend
-├── salary_pred.py        # Model training script
-├── Salary_Data.csv       # Dataset
-├── model.pkl             # Saved trained model
-└── README.md             # Project documentation
+├── app.py              # Streamlit app
+├── salary_pred.py      # Model training
+├── Salary_Data.csv     # Dataset
+├── model.pkl           # Saved model
+└── README.md
 ```
 
 ---
 
-## ⚙️ How It Works
+## ⚙️ **How It Works**
 
-1. The dataset is loaded from `Salary_Data.csv`
-2. A Linear Regression model is trained using:
-
-   * Input: Years of Experience
-   * Output: Salary
-3. The trained model is saved as `model.pkl`
-4. Streamlit app:
-
-   * Loads the model
-   * Accepts user input
-   * Predicts salary in real-time
-5. If the dataset is updated:
-
-   * The app automatically retrains the model
+1️⃣ Load dataset from CSV
+2️⃣ Train Linear Regression model
+3️⃣ Save model using Pickle
+4️⃣ Load model in Streamlit app
+5️⃣ Take user input
+6️⃣ Predict salary instantly
+7️⃣ Display graph + result
 
 ---
 
-## ▶️ Run the Project Locally
+## ▶️ **Run Locally**
 
-### Step 1: Install dependencies
+### 1️⃣ Install dependencies
 
-```
+```id="zvfh8g"
 pip install pandas scikit-learn matplotlib streamlit
 ```
 
-### Step 2: Train the model (first time only)
+### 2️⃣ Train model (first time)
 
-```
+```id="jd8g3n"
 python salary_pred.py
 ```
 
-### Step 3: Run Streamlit app
+### 3️⃣ Run app
 
-```
+```id="0fl6b8"
 streamlit run app.py
 ```
 
 ---
 
-## 📊 Model Performance
+## 📊 **Model Performance**
 
 * Algorithm: Linear Regression
-* Evaluation Metric: R² Score
-* Achieved Accuracy: **~90%**
+* R² Score: **~0.90**
 
-This indicates a strong relationship between years of experience and salary in the dataset.
-
----
-
-## 📈 Visualization
-
-* Blue dots → Actual data points
-* Red line → Regression line (model prediction)
-* ❌ Marker → User’s predicted value
+✔ Indicates strong correlation between experience and salary
 
 ---
 
-## 💡 Future Improvements
+## 📈 **Visualization Explained**
 
-* Add multiple features (education, role, location)
-* Compare different ML models
-* Enable CSV upload for bulk predictions
-* Deploy app online (Streamlit Cloud / Render)
-* Improve UI/UX design
+* 🔵 Blue dots → Actual data
+* 🔴 Red line → Model prediction
+* ❌ Marker → Your predicted value
 
 ---
 
-## 🎯 Learning Outcomes
+## 💡 **Future Improvements**
 
-* Understanding of train-test split and model evaluation
-* Implementation of Linear Regression
-* Model serialization using Pickle
-* Building interactive ML apps using Streamlit
-* Handling real-world scenario (model retraining)
-
----
-
-## 📌 Conclusion
-
-This project demonstrates how a simple machine learning model can be transformed into a functional and interactive web application. It serves as a strong foundation for building more advanced ML-powered systems.
+* Add more features (education, role, etc.)
+* Compare multiple ML models
+* CSV upload for bulk prediction
+* Deploy online
+* Improve UI/UX
 
 ---
 
-## 🙌 Author
+## 🎯 **Learning Outcomes**
+
+✔ Machine Learning basics
+✔ Model training & evaluation
+✔ Model saving/loading (Pickle)
+✔ Streamlit app development
+✔ Real-world ML concept (auto retraining)
+
+---
+
+## 👨‍💻 **Author**
 
 **Vighnaraj Kakade**
-B.Tech Student | Aspiring Software & ML Developer
+B.Tech Student | ML & Web Development Enthusiast
 
 ---
 
-⭐ If you found this project useful, consider giving it a star!
+⭐ *If you like this project, consider starring the repository!*
