@@ -46,6 +46,12 @@ salary-predictor/
 
 ---
 
+🧠 What I Learned
+How to build a machine learning model using sklearn
+Train-test split
+Model evaluation using R² score
+Data visualization using matplotlib
+
 ## ⚙️ **How It Works**
 
 1. 📥 Load dataset from CSV
