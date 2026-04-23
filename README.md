@@ -1,4 +1,5 @@
-
+<h1 align="center">💼 Salary Predictor</h1>
+<h3 align="center">Machine Learning Web App</h3>
 # 💼 **SALARY PREDICTOR WEB APPLICATION**
 
 ---
